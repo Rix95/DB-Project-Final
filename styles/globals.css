@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #d1411e;
+  --secondary-color: #6c757d;
+  --font-family: "Arial", sans-serif;
+  /* Add more variables as needed */
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden; Messes with navbar*/
+  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
